@@ -1,5 +1,5 @@
 import React from 'react'
-import featureImage from '../mt-fuji.jpg'
+import featureImage from '../images/mt-fuji.jpg'
 import '../App.css';
 
 const styles = {

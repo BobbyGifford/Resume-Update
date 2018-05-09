@@ -5,7 +5,7 @@ import createHistory from 'history/createBrowserHistory'
 
 import Home from '../components/Home'
 import Header from '../components/Header'
-import TechList from '../components/TechList'
+import TechList from '../components/TechList/TechList'
 
 export const history = createHistory();
 
