@@ -32,7 +32,7 @@ const TechList = () => {
     return (
         <div>
             <div className="container">
-                <h3 className="my-5 offset-3">These are the languages I know</h3>
+                <h3 className="my-5 text-center">These are the languages I know</h3>
                 <div className="row">
 
                     {
@@ -48,7 +48,7 @@ const TechList = () => {
                 </div>
 
 
-                <h3 className="mt-3 offset-3">These are the frameworks I know</h3>
+                <h3 className="mt-3 text-center">These are the frameworks I know</h3>
                 <div className="row mt-5">
 
                     {

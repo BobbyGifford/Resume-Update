@@ -6,6 +6,7 @@ import createHistory from 'history/createBrowserHistory'
 import Home from '../components/Home'
 import Header from '../components/Header'
 import TechList from '../components/TechList/TechList'
+import ProjectList from '../components/ProjectList'
 
 
 export const history = createHistory();
@@ -19,6 +20,7 @@ const MainRouter = () => {
                 <Header />
                 <Home />
                 <TechList/>
+                <ProjectList/>
                 {/*<Route exact path='/' component={Home} />*/}
             </div>
         </Router>

@@ -10,6 +10,8 @@ const Home = () => {
                         About me
                     </h3>
 
+                    <hr style={{backgroundColor: 'black'}} />
+
                     <p> My name is Robert but I go by Bobby. I am a software developer currently living in Cupertino,
                         next to
                         Apple. I started using JavaScript in 2010, slightly before I went to college. I immediately fell
@@ -29,8 +31,10 @@ const Home = () => {
                         I am currently working on a Go
                         backend.
                     </p>
+                    <hr style={{backgroundColor: 'black'}} />
                 </div>
             </div>
+
         </div>
     )
 };
