@@ -33,7 +33,6 @@ const ProfessionalProjects = () => {
                                 <li className="list-group-item">Node</li>
                                 <li className="list-group-item">Bootstrap</li>
                             </ul>
-
                         </div>
                     </div>
                 </div>
