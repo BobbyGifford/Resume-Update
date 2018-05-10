@@ -33,12 +33,12 @@ const TechList = () => {
         <div>
             <div className="container">
                 <h3 className="my-5 text-center">These are the languages I know</h3>
-                <div className="row">
+                <div className="row mx-auto">
 
                     {
                         languagesHolder.map(image => {
                             return (
-                                <div className="col-md-3 mx-auto">
+                                <div className="col-md-2 offset-md-1 col-sm-12">
                                     {image.label === "JavaScript" ? <h4>javascript</h4> : null}
                                     <img className="language-logo" src={image.src} alt={image.label}/>
                                 </div>
@@ -49,14 +49,13 @@ const TechList = () => {
 
 
                 <h3 className="mt-3 text-center">These are the frameworks I know</h3>
-                <div className="row mt-5">
-
+                <div className="row mt-5 mx-auto">
                     {
                         frameworkHolder.map(image => {
                             return (
-                                <div className="col-md-6 mx-auto">
+                                <div className="col-md-3 offset-md-1">
                                     <img className='language-logo' src={image.src} alt={image.label}/>
-                                    {image.label === "React" ? <h4 className="offset-3">React</h4> : null}
+                                    {image.label === "React" ? <h4 className={"text-center"}>React</h4> : null}
                                 </div>
                             )
                         })

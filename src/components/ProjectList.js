@@ -5,7 +5,7 @@ const ProjectList = () => {
     return (
         <div className="container">
             <h2 className="text-center">Projects</h2>
-            <div style={{marginLeft: "40%"}}>
+            <div className={"text-center"}>
                 <Link className="mx-2 btn btn-info" to="/professional">Professional</Link>
                 <Link className="mx-2 btn btn-info" to="/personal">Personal</Link>
             </div>

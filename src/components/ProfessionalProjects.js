@@ -42,8 +42,9 @@ const ProfessionalProjects = () => {
                     <img className="card-img-top" src={featureImage} alt="Card image cap"/>
                     <div className="card-body">
                         <h5 className="card-title">Kuku's Corner</h5>
-                        <div className="card-text">Some quick example text to build on the card title and make up the bulk
-                            of the card's content.</div>
+                        <div className="card-text">Some quick example text to build on
+                            the card title and make up the bulk of the card's content.
+                        </div>
                     </div>
                     <div className="card-header">
                         Notable Tech Used
