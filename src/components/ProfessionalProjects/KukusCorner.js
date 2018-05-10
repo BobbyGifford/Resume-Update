@@ -1,6 +1,6 @@
 import React from 'react'
 
-import featureImage from '../../images/mt-fuji.jpg'
+import featureImage from '../../images/kukuscorner_1.png'
 
 const KukusCorner = () => {
     return (
@@ -9,8 +9,8 @@ const KukusCorner = () => {
             <div className="card-body">
                 <h5 className="card-title">Kuku's Corner</h5>
                 <div className="card-text">
-                    Some quick example text to build on
-                    the card title and make up the bulk of the card's content.
+                    A reusable e-commerce store with an admin section. It is meant to be easily customizable for
+                    clients. Currently being updated from Angular 1 to React.
                     <br/>
                     <br/>
 
@@ -21,6 +21,10 @@ const KukusCorner = () => {
                         <li className="list-group-item">React</li>
                         <li className="list-group-item">Bootstrap</li>
                     </ul>
+
+                    <div className={"text-center"} >
+                        <a className={"btn btn-info"} style={{color: "white"}}>View</a>
+                    </div>
 
                 </div>
             </div>

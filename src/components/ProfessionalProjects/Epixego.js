@@ -1,6 +1,6 @@
 import React from 'react'
 
-import featureImage from '../../images/mt-fuji.jpg'
+import featureImage from '../../images/epixego_1.png'
 
 const Epixego = () => {
     return (
@@ -8,15 +8,16 @@ const Epixego = () => {
             <img className="card-img-top" src={featureImage} alt="Epixego"/>
 
             <div className="card-body">
-                <h5 className="card-title">Epixego
-                    <span className="badge badge-danger ml-3">Currently in Alpha</span></h5>
+                <h4 className="card-title">Epixego
+                    </h4>
 
 
                 <div className="card-text">
-                    Some quick example text to build on the card title
-                    and make up the bulk of the card's content.
-                    <br />
-                    <br />
+                    A skills genome knowledge graph that is able to mimic the neurological connections of the human
+                    brain. It uses information about context unavailable through typically resumes. Users can choose to
+                    either be a role model or student depending of education/career level.
+                    <br/>
+                    <br/>
 
                     <div className="card-header">
                         Notable Tech Used
@@ -26,6 +27,7 @@ const Epixego = () => {
                         <li className="list-group-item">Node</li>
                         <li className="list-group-item">Bootstrap</li>
                     </ul>
+                    <h6 className="text-center"><span className="badge badge-danger">Currently in Alpha</span></h6>
                 </div>
             </div>
         </div>
