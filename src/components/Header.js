@@ -11,15 +11,16 @@ const styles = {
     },
 
     styleJumbotron: {
-        backgroundColor: 'rgba(138, 167, 252, 0.05)',
-        height: '50vh'
+        backgroundColor: 'rgba(138, 0, 252, 0.05)',
+        width: '40vw',
+        height: '100%'
     }
-}
+};
 
 const Header = () => {
     return (
         <div className='App' style={styles.styleContainer}>
-            <div className="jumbotron" style={styles.styleJumbotron}>
+            <div className="jumbotron mx-auto" style={styles.styleJumbotron}>
                 <div style={{color: 'black'}}>
                     <h1 className="display-4">Robert Gifford</h1>
                     <p className="lead">Welcome to my resume</p>
