@@ -8,7 +8,7 @@ import Header from '../components/Header'
 import TechList from '../components/TechList/TechList'
 import ProjectList from '../components/ProjectList'
 import ProfessionalProjects from "../components/ProfessionalProjects/ProfessionalProjects"
-import PersonalProjects from "../components/PersonalProjects"
+import PersonalProjects from "../components/PersonalProjects/PersonalProjects"
 
 
 export const history = createHistory();
@@ -22,11 +22,11 @@ const MainRouter = () => {
                 <Home/>
                 <TechList/>
                 <ProjectList/>
-                <div className="container">
-                    <Route exact path='/' component={ProfessionalProjects}/>
-                    <Route path='/professional' component={ProfessionalProjects}/>
-                    <Route path="/personal" component={PersonalProjects}/>
-                </div>
+                {/*<div className="container">*/}
+                    {/*<Route exact path='/' component={ProfessionalProjects}/>*/}
+                    {/*<Route path='/professional' component={ProfessionalProjects}/>*/}
+                    {/*<Route path="/personal" component={PersonalProjects}/>*/}
+                {/*</div>*/}
             </div>
         </Router>
     )

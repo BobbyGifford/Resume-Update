@@ -22,7 +22,7 @@ const KukusCorner = () => {
                         <li className="list-group-item">Bootstrap</li>
                     </ul>
 
-                    <div className={"text-center"} >
+                    <div className={"text-center mt-2"} >
                         <a href={"https://kukuscorner.com/#/home"} className={"btn btn-info"} style={{color: "white"}}>View</a>
                     </div>
 
