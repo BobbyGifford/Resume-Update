@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6491b7f2-7cf6-48e6-aa08-d18c09e8c147" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/components/ProfessionalProjects.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ProfessionalProjects.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ProfessionalProjects/Epixego.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ProfessionalProjects/KukusCorner.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ProfessionalProjects.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ProfessionalProjects/ProfessionalProjects.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/router/MainRouter.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/router/MainRouter.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -16,11 +20,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="TechList.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/TechList/TechList.js">
+      <file leaf-file-name="ProfessionalProjects.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/components/ProfessionalProjects/ProfessionalProjects.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="104">
-              <caret line="46" selection-start-line="46" selection-end-line="46" />
+            <state relative-caret-position="153">
+              <caret line="9" column="44" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
               <folding>
                 <element signature="e#0#25#0" expanded="true" />
               </folding>
@@ -28,14 +32,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ProfessionalProjects.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/components/ProfessionalProjects.js">
+      <file leaf-file-name="KukusCorner.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/ProfessionalProjects/KukusCorner.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="34" column="33" selection-start-line="34" selection-start-column="33" selection-end-line="34" selection-end-column="33" />
+            <state relative-caret-position="527">
+              <caret line="31" column="27" selection-start-line="31" selection-start-column="27" selection-end-line="31" selection-end-column="27" />
               <folding>
                 <element signature="e#0#25#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Epixego.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/ProfessionalProjects/Epixego.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="1" selection-start-line="2" selection-end-line="3" />
             </state>
           </provider>
         </entry>
@@ -70,6 +83,10 @@
         <option value="$PROJECT_DIR$/src/components/TechList/TechList.css" />
         <option value="$PROJECT_DIR$/src/components/TechList/TechList.js" />
         <option value="$PROJECT_DIR$/src/components/ProfessionalProjects.js" />
+        <option value="$PROJECT_DIR$/src/components/ProfessionalProjects/ProfessionalProjectList.js" />
+        <option value="$PROJECT_DIR$/src/components/ProfessionalProjects/Epixego.js" />
+        <option value="$PROJECT_DIR$/src/components/ProfessionalProjects/KukusCorner.js" />
+        <option value="$PROJECT_DIR$/src/components/ProfessionalProjects/ProfessionalProjects.js" />
       </list>
     </option>
   </component>
@@ -123,7 +140,7 @@
               <item name="Resume-Update" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="TechList" type="462c0819:PsiDirectoryNode" />
+              <item name="ProfessionalProjects" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -139,13 +156,14 @@
     <property name="nodejs_package_manager_path" value="yarn" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/components/ProfessionalProjects" />
+      <recent name="$PROJECT_DIR$/src/components/TechList" />
+      <recent name="$PROJECT_DIR$/src/images" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/images" />
       <recent name="C:\Users\Big Juice\Desktop\Web\gifford-update\src" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/components/TechList" />
-      <recent name="$PROJECT_DIR$/src/images" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -177,18 +195,19 @@
       <workItem from="1525899362712" duration="2661000" />
       <workItem from="1525902113080" duration="9873000" />
       <workItem from="1525916604026" duration="1508000" />
-      <workItem from="1525918122730" duration="1307000" />
+      <workItem from="1525918122730" duration="2127000" />
+      <workItem from="1525972452394" duration="1017000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31240000" />
+    <option name="totallyTimeSpent" value="33077000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="52" y="-11" width="1869" height="1092" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49837664" visible="true" weight="0.13551152" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49837664" visible="true" weight="0.13551152" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
@@ -196,7 +215,7 @@
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Structure" order="1" sideWeight="0.5016234" side_tool="true" weight="0.18229716" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.21311475" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.21311475" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -222,6 +241,26 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/components/TechList/TechList.js">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="901">
+          <caret line="61" lean-forward="true" selection-start-line="61" selection-end-line="61" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/ProfessionalProjects/ProfessionalProjects.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="34" column="33" selection-start-line="34" selection-start-column="33" selection-end-line="34" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/TechList/TechList.js">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="646">
           <caret line="46" column="37" lean-forward="true" selection-start-line="46" selection-start-column="37" selection-end-line="46" selection-end-column="37" />
           <folding>
@@ -237,7 +276,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/ProfessionalProjects.js">
+    <entry file="file://$PROJECT_DIR$/src/components/ProfessionalProjects/ProfessionalProjects.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
           <caret line="25" column="34" selection-start-line="25" selection-start-column="34" selection-end-line="25" selection-end-column="34" />
@@ -457,18 +496,42 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/TechList/TechList.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="46" selection-start-line="46" selection-end-line="46" />
+        <state relative-caret-position="359">
+          <caret line="61" selection-start-line="61" selection-end-line="61" />
           <folding>
             <element signature="e#0#25#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/ProfessionalProjects.js">
+    <entry file="file://$PROJECT_DIR$/src/components/ProfessionalProjects/ProfessionalProjectList.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="34" column="33" selection-start-line="34" selection-start-column="33" selection-end-line="34" selection-end-column="33" />
+        <state relative-caret-position="17">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/ProfessionalProjects/Epixego.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="1" selection-start-line="2" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/ProfessionalProjects/KukusCorner.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="31" column="27" selection-start-line="31" selection-start-column="27" selection-end-line="31" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/ProfessionalProjects/ProfessionalProjects.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="44" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
           <folding>
             <element signature="e#0#25#0" expanded="true" />
           </folding>

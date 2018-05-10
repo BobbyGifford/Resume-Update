@@ -7,7 +7,7 @@ import Home from '../components/Home'
 import Header from '../components/Header'
 import TechList from '../components/TechList/TechList'
 import ProjectList from '../components/ProjectList'
-import ProfessionalProjects from "../components/ProfessionalProjects"
+import ProfessionalProjects from "../components/ProfessionalProjects/ProfessionalProjects"
 import PersonalProjects from "../components/PersonalProjects"
 
 
