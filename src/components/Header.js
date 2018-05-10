@@ -5,13 +5,13 @@ import '../App.css';
 const styles = {
     styleContainer: {
         backgroundImage: `url(${featureImage})`,
-        backgroundPositionY: '-20vh',
+        backgroundPositionY: '-30vh',
         width: '100%',
         height: '50vh',
     },
 
     styleJumbotron: {
-        backgroundColor: 'rgba(138, 167, 252, 0.4)',
+        backgroundColor: 'rgba(138, 167, 252, 0.05)',
         height: '50vh'
     }
 }
