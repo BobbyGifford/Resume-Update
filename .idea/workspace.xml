@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6491b7f2-7cf6-48e6-aa08-d18c09e8c147" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/components/TechList/TechList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TechList/TechList.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ProfessionalProjects.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ProfessionalProjects.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -25,11 +25,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ProfessionalProjects.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ProfessionalProjects.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/ProfessionalProjects.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="45" column="64" selection-start-line="45" selection-start-column="64" selection-end-line="45" selection-end-column="64" />
+            <state relative-caret-position="238">
+              <caret line="25" column="34" selection-start-line="25" selection-start-column="34" selection-end-line="25" selection-end-column="34" />
               <folding>
                 <element signature="e#0#25#0" expanded="true" />
               </folding>
@@ -49,10 +49,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TechList.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="TechList.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/TechList/TechList.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
+            <state relative-caret-position="510">
               <caret line="57" column="89" selection-start-line="57" selection-start-column="89" selection-end-line="57" selection-end-column="89" />
               <folding>
                 <element signature="e#0#25#0" expanded="true" />
@@ -96,10 +96,10 @@
         <option value="$PROJECT_DIR$/src/router/MainRouter.js" />
         <option value="$PROJECT_DIR$/src/components/Home.js" />
         <option value="$PROJECT_DIR$/src/components/Header.js" />
-        <option value="$PROJECT_DIR$/src/components/ProfessionalProjects.js" />
         <option value="$PROJECT_DIR$/src/components/ProjectList.js" />
         <option value="$PROJECT_DIR$/src/components/TechList/TechList.css" />
         <option value="$PROJECT_DIR$/src/components/TechList/TechList.js" />
+        <option value="$PROJECT_DIR$/src/components/ProfessionalProjects.js" />
       </list>
     </option>
   </component>
@@ -205,12 +205,12 @@
       <workItem from="1525886470370" duration="6632000" />
       <workItem from="1525893164108" duration="1598000" />
       <workItem from="1525899362712" duration="2661000" />
-      <workItem from="1525902113080" duration="9063000" />
+      <workItem from="1525902113080" duration="9558000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27615000" />
+    <option name="totallyTimeSpent" value="28110000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="53" y="-4" width="1867" height="1084" extended-state="6" />
@@ -244,7 +244,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="4" />
+      <option name="time" value="5" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -467,16 +467,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/ProfessionalProjects.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="45" column="64" selection-start-line="45" selection-start-column="64" selection-end-line="45" selection-end-column="64" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/TechList/TechList.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -486,8 +476,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/TechList/TechList.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
+        <state relative-caret-position="510">
           <caret line="57" column="89" selection-start-line="57" selection-start-column="89" selection-end-line="57" selection-end-column="89" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/ProfessionalProjects.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="25" column="34" selection-start-line="25" selection-start-column="34" selection-end-line="25" selection-end-column="34" />
           <folding>
             <element signature="e#0#25#0" expanded="true" />
           </folding>
