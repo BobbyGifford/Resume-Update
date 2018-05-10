@@ -23,7 +23,7 @@ const KukusCorner = () => {
                     </ul>
 
                     <div className={"text-center"} >
-                        <a className={"btn btn-info"} style={{color: "white"}}>View</a>
+                        <a href={"https://kukuscorner.com/#/home"} className={"btn btn-info"} style={{color: "white"}}>View</a>
                     </div>
 
                 </div>
