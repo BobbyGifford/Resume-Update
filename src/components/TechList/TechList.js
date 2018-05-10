@@ -11,36 +11,48 @@ import "./TechList.css"
 const TechList = () => {
 
     let languagesHolder = [
-        {src: htmlImage,
-        label: "HTML"},
+        {
+            src: htmlImage,
+            label: "HTML"
+        },
 
-        {src: cssImage,
-        label: "CSS"},
+        {
+            src: javascriptImage,
+            label: "JavaScript"
+        },
 
-        {src: javascriptImage,
-        label: "JavaScript"}
+        {
+            src: cssImage,
+            label: "CSS"
+        },
+
     ];
 
     let frameworkHolder = [
-        {src: reactImage,
-        label: "React"},
+        {
+            src: reactImage,
+            label: "React"
+        },
 
-        {src: nodeImage,
-        label: "Node"}
+        {
+            src: nodeImage,
+            label: "Node"
+        }
     ];
 
     return (
         <div>
             <div className="container">
-                <h3 className="my-5 text-center">These are the languages I know</h3>
-                <div className="row mx-auto">
+                <h3 className="my-5 text-center">This is the tech stack I use most often</h3>
 
+                <div className="row">
                     {
                         languagesHolder.map(image => {
                             return (
-                                <div className="col-md-2 offset-md-1 col-sm-12">
-                                    {image.label === "JavaScript" ? <h4>javascript</h4> : null}
-                                    <img className="language-logo" src={image.src} alt={image.label}/>
+                                <div className="card col-md-4 mx-auto" style={{maxWidth: "18rem"}}>
+                                    {image.label === "JavaScript" ? <h4 className="card-title">JavaScript</h4> : null}
+                                    <img className="card-img-top" src={image.src} alt={image.label}
+                                         style={{maxHeight: "18rem"}}/>
                                 </div>
                             )
                         })
@@ -48,15 +60,15 @@ const TechList = () => {
                 </div>
 
 
-                <h3 className="mt-3 text-center">These are the frameworks I know</h3>
-                <div className="row mt-5 mx-auto">
+                <div className="row mt-5">
                     {
                         frameworkHolder.map(image => {
                             return (
-                                <div className="col-md-3 offset-md-1">
-                                    <img className='language-logo' src={image.src} alt={image.label}/>
-                                    {image.label === "React" ? <h4 style={{marginLeft: "8rem"}}>React</h4> : null}
+                                <div className="card col-md-3 mx-auto" style={{maxWidth: "25rem"}}>
+                                    {image.label === "React" ? <h4 className="card-title text-center">React</h4> : null}
+                                    <img className="card-img-top" src={image.src} alt={image.label} />
                                 </div>
+
                             )
                         })
                     }

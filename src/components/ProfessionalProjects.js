@@ -12,7 +12,7 @@ const ProfessionalProjects = () => {
                 {/*Card 1 begins*/}
 
                 <div className="card col-md-6" style={{width: "18rem"}}>
-                    <img className="card-img-top" src={featureImage} alt="Card image cap"/>
+                    <img className="card-img-top" src={featureImage} alt="Epixego"/>
 
                     <div className="card-body">
                         <h5 className="card-title">Epixego
@@ -41,7 +41,7 @@ const ProfessionalProjects = () => {
                 {/*Card 2 begins*/}
 
                 <div className="card col-md-6" style={{width: "18rem"}}>
-                    <img className="card-img-top" src={featureImage} alt="Card image cap"/>
+                    <img className="card-img-top" src={featureImage} alt="Kuku's"/>
                     <div className="card-body">
                         <h5 className="card-title">Kuku's Corner</h5>
                         <div className="card-text">
