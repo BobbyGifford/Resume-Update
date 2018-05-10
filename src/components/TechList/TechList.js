@@ -55,7 +55,7 @@ const TechList = () => {
                             return (
                                 <div className="col-md-3 offset-md-1">
                                     <img className='language-logo' src={image.src} alt={image.label}/>
-                                    {image.label === "React" ? <h4 className={"text-center"}>React</h4> : null}
+                                    {image.label === "React" ? <h4 style={{marginLeft: "8rem"}}>React</h4> : null}
                                 </div>
                             )
                         })
