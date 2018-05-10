@@ -6,8 +6,6 @@ import javascriptImage from '../../images/javascript_logo_1.png'
 import reactImage from "../../images/react_logo_1.png"
 import nodeImage from "../../images/node_logo_1.png"
 
-import "./TechList.css"
-
 const TechList = () => {
 
     let languagesHolder = [
@@ -49,7 +47,7 @@ const TechList = () => {
                     {
                         languagesHolder.map(image => {
                             return (
-                                <div className="card col-md-4 mx-auto" style={{maxWidth: "18rem"}}>
+                                <div className="card col-md-4 mx-auto" style={{maxWidth: "13rem"}}>
                                     {image.label === "JavaScript" ? <h4 className="card-title">JavaScript</h4> : null}
                                     <img className="card-img-top" src={image.src} alt={image.label}
                                          style={{maxHeight: "18rem"}}/>

@@ -4,7 +4,7 @@ const Home = () => {
     return (
         <div>
             <div className="row">
-                <div className="col-6 mt-3 mx-auto">
+                <div className="col-6 mt-5 mx-auto">
 
                     <h3>
                         About me

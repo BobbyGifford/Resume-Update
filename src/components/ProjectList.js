@@ -15,22 +15,22 @@ class ProjectList extends Component {
         return (
             <div className="container">
                 <h2 className="text-center">Projects</h2>
+                <div className="text-center">Please choose an option</div>
                 <div className={"text-center"}>
 
                     <button onClick={() => {
                         this.setState({projectOption: "professional"})
-                    }} className={"btn btn-info mx-3"}>Professional
+                    }} className={"btn btn-info btn-lg mx-3"}>Professional
                     </button>
 
                     <button onClick={() => {
                         this.setState({projectOption: "personal"})
-                    }} className={"btn btn-info"}>Personal</button>
+                    }} className={"btn btn-info btn-lg"}>Personal</button>
                 </div>
 
                 {this.state.projectOption === "professional" ? <ProfessionalProjects/> : <PersonalProjects/>}
             </div>
         )
-
     }
 }
 
