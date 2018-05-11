@@ -10,7 +10,7 @@ export const history = createHistory();
 class App extends Component {
     render() {
         return (
-            <div>
+            <div className={"App"}>
                 <MainRouter />
             </div>
         );

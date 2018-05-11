@@ -13,7 +13,7 @@ class ProjectList extends Component {
 
     render() {
         return (
-            <div id="projects" className="container" style={{minHeight: "100vh"}}>
+            <div className="container">
                 <h1 className="text-center">Projects</h1>
                 <h4 className="text-center my-4">Please click one of the buttons below</h4>
 
@@ -29,7 +29,7 @@ class ProjectList extends Component {
                     }} className={"btn btn-info btn-lg"}>View Personal</button>
                 </div>
 
-                {this.state.projectOption === "professional" ? <ProfessionalProjects/> : <PersonalProjects/>}
+                {this.state.projectOption === "professional" ? <ProfessionalProjects /> : <PersonalProjects/>}
             </div>
         )
     }

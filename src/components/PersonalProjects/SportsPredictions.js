@@ -4,7 +4,7 @@ import featureImage from '../../images/sport_prediction_1.png'
 
 const SportPredictions = () => {
     return (
-        <div className="card col-md-6" style={{width: "18rem"}}>
+        <div className="card col-md-6 mt-3" style={{width: "18rem"}}>
             <img className="card-img-top" src={featureImage} alt="Sports"/>
 
             <div className="card-body">

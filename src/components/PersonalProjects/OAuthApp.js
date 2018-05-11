@@ -3,7 +3,7 @@ import featureImage from '../../images/oauth_1.png'
 
 const OAuthApp = () => {
     return (
-        <div className="card col-md-6" style={{width: "18rem"}}>
+        <div className="card col-md-6 mt-3" style={{width: "18rem"}}>
             <img className="card-img-top" src={featureImage} alt="Epixego"/>
 
             <div className="card-body">

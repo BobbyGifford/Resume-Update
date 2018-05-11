@@ -6,9 +6,9 @@ import KukusCorner from './KukusCorner'
 
 const ProfessionalProjects = () => {
     return (
-        <div>
+        <div >
             <h3 className={"text-center my-4"}>Professional Projects</h3>
-            <div className="row">
+            <div className="row" style={{color: "black"}}>
 
                 {/*Card 1 begins*/}
 

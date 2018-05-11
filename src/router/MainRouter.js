@@ -7,6 +7,7 @@ import Home from '../components/Home'
 import Header from '../components/Header'
 import TechList from '../components/TechList/TechList'
 import ProjectList from '../components/ProjectList'
+import "./MainRouter.css"
 
 
 export const history = createHistory();
@@ -16,12 +17,15 @@ const MainRouter = () => {
     return (
         <Router history={history}>
             <div>
-                <div style={{minHeight: '100vh'}}>
-                    <Header/>
-                    <Home/>
+
+                <Header/>
+                <Home/>
+                <div id="projectlist"></div>
+                <div className="projects">
+                    <ProjectList/>
                 </div>
-                <ProjectList/>
                 <TechList/>
+
             </div>
         </Router>
     )
