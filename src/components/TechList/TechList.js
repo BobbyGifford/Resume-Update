@@ -40,7 +40,7 @@ const TechList = () => {
 
     return (
         <div>
-            <div className="container">
+            <div className="container" id="skills" style={{minHeight: "100vh"}}>
                 <h3 className="my-5 text-center">This is the tech stack I use most often</h3>
 
                 <div className="row">

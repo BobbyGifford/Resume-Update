@@ -2,9 +2,9 @@ import React from 'react'
 
 const Home = () => {
     return (
-        <div>
+        <div id="about">
             <div className="row">
-                <div className="col-6 mt-5 mx-auto">
+                <div className="col-6 mt-5 mx-auto" style={{height: "100vh"}}>
 
                     <h3>
                         About me

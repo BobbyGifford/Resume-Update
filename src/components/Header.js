@@ -7,7 +7,7 @@ const styles = {
         backgroundImage: `url(${featureImage})`,
         backgroundPositionY: '-30vh',
         width: '100%',
-        height: '50vh',
+        height: '100vh',
     },
 
     styleJumbotron: {
@@ -25,11 +25,17 @@ const Header = () => {
                     <h1 className="display-4">Robert Gifford</h1>
                     <p className="lead">Welcome to my resume</p>
                     <hr className="my-4"/>
-                    <p className="lead">
-                        <a className="btn btn-primary btn-lg" role="button">About Me</a>
-                        <a className="btn btn-primary btn-lg mx-2" role="button">Tech I know</a>
-                        <a className="btn btn-primary btn-lg" role="button">Projects</a>
-                    </p>
+                    <div className="lead">
+                        <button onClick={() => {
+                            document.querySelector("#about").scrollIntoView({behavior: "smooth"})
+                        }} className="btn btn-primary btn-lg">About Me</button>
+                        <button onClick={() => {
+                            document.querySelector("#projects").scrollIntoView({behavior: "smooth"})
+                        }} className="btn btn-primary btn-lg mx-2">Projects</button>
+                        <button onClick={() => {
+                            document.querySelector("#skills").scrollIntoView({behavior: "smooth"})
+                        }} className="btn btn-primary btn-lg">My Skills</button>
+                    </div>
                 </div>
             </div>
         </div>

@@ -13,19 +13,20 @@ class ProjectList extends Component {
 
     render() {
         return (
-            <div className="container">
-                <h2 className="text-center">Projects</h2>
-                <div className="text-center">Please choose an option</div>
+            <div id="projects" className="container" style={{minHeight: "100vh"}}>
+                <h1 className="text-center">Projects</h1>
+                <h4 className="text-center my-4">Please click one of the buttons below</h4>
+
                 <div className={"text-center"}>
 
                     <button onClick={() => {
                         this.setState({projectOption: "professional"})
-                    }} className={"btn btn-info btn-lg mx-3"}>Professional
+                    }} className={"btn btn-info btn-lg mx-3"}> View Professional
                     </button>
 
                     <button onClick={() => {
                         this.setState({projectOption: "personal"})
-                    }} className={"btn btn-info btn-lg"}>Personal</button>
+                    }} className={"btn btn-info btn-lg"}>View Personal</button>
                 </div>
 
                 {this.state.projectOption === "professional" ? <ProfessionalProjects/> : <PersonalProjects/>}
