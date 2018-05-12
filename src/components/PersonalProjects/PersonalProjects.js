@@ -6,7 +6,7 @@ import SportsPredictions from "./SportsPredictions"
 
 const PersonalProjects = () => {
     return (
-        <div>
+        <div className="container">
             <h3 className={"text-center my-4"}>Personal Projects</h3>
             <div className="row" style={{color: "black"}}>
 

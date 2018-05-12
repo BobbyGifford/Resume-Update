@@ -13,7 +13,7 @@ class ProjectList extends Component {
 
     render() {
         return (
-            <div style={{color: "white"}}>
+            <div style={{color: "white", maxWidth: "98vw"}}>
                 <h1 className="text-center">Projects</h1>
                 <h4 className="text-center my-4">Please click one of the buttons below</h4>
                 <hr style={{backgroundColor: 'white', width: '60vw'}} />

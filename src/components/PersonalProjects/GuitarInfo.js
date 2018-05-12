@@ -3,7 +3,7 @@ import featureImage from '../../images/guitar_info_1.png'
 
 const GuitarInfo = () => {
     return (
-        <div className="card col-md-5 mr-3 offset-md-1" style={{width: "18rem"}}>
+        <div className="card col-md-5 mr-3 mb-3 mx-auto" style={{width: "18rem"}}>
             <a href={"http://guitar-info.s3-website.us-east-2.amazonaws.com/"}>
                 <img className="card-img-top" src={featureImage} alt="Epixego"/></a>
 
@@ -20,13 +20,13 @@ const GuitarInfo = () => {
                     <br/>
 
                     <div className="card-header">
-                        <h5>Notable Tech Used:
+                        <h6>Notable Tech Used:
                             <span className="badge badge-info ml-2">React</span>
                             <span className="badge ml-2"
                                   style={{backgroundColor: "purple", color: 'white'}}>Bootstrap</span>
                             <span className="badge ml-2"
                                   style={{backgroundColor: "#4968AF", color: 'white'}}>AWS</span>
-                        </h5>
+                        </h6>
 
                     </div>
                     <div className={"text-center mt-2"}>

@@ -6,13 +6,14 @@ const styles = {
     styleContainer: {
         backgroundImage: `url(${featureImage})`,
         backgroundPositionY: '-30vh',
-        width: '100vw',
+        width: '100%',
         height: '100vh',
+        marginBottom: "10vh"
     },
 
     styleJumbotron: {
         backgroundColor: 'rgb(71, 160, 250, .1)',
-        width: '40vw',
+        width: '60vw',
         height: '100vh',
         paddingTop: "30vh"
     }
@@ -26,16 +27,15 @@ const Header = () => {
                     <h1 className="display-4">Robert Gifford</h1>
                     <p className="lead">Welcome to my resume</p>
                     <hr className="my-4"/>
-                    <div className="lead">
+                    <div className="lead d-none d-md-block">
                         <button onClick={() => {
                             document.querySelector("#about").scrollIntoView({behavior: "smooth"})
-                        }} className="btn btn-primary btn-lg">About Me</button>
+                        }} className="btn btn-primary btn-lg">About Me
+                        </button>
                         <button onClick={() => {
                             document.querySelector("#projectlist").scrollIntoView({behavior: "smooth"})
-                        }} className="btn btn-primary btn-lg mx-2">Projects</button>
-                        <button onClick={() => {
-                            document.querySelector("#skills").scrollIntoView({behavior: "smooth"})
-                        }} className="btn btn-primary btn-lg">My Skills</button>
+                        }} className="btn btn-primary btn-lg mx-2">Projects
+                        </button>
                     </div>
                 </div>
             </div>

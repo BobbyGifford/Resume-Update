@@ -5,7 +5,6 @@ import createHistory from 'history/createBrowserHistory'
 
 import Home from '../components/Home'
 import Header from '../components/Header'
-import TechList from '../components/TechList/TechList'
 import ProjectList from '../components/ProjectList'
 import Nav from "../components/Nav/Nav"
 import "./MainRouter.css"
@@ -18,15 +17,17 @@ const MainRouter = () => {
     return (
         <Router history={history}>
             <div>
-                <Nav/>
+                <div className="d-none d-md-block">
+                    <Nav/>
+                </div>
+
                 <Header/>
-                <Home/>
-                <div id="projectlist"></div>
-                <div className="projects" style={{padding: "5vh 0 5vh 0"}}>
+                <div className="d-none d-md-block">
+                    <Home/>
+                </div>
+                <div id="projectlist" className="projects" style={{padding: "5vh 0 5vh 0"}}>
                     <ProjectList/>
                 </div>
-                <TechList/>
-
             </div>
         </Router>
     )

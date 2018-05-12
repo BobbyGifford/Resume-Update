@@ -3,7 +3,7 @@ import featureImage from '../../images/oauth_1.png'
 
 const OAuthApp = () => {
     return (
-        <div className="card col-md-5 mr-3 offset-md-1 mt-3" style={{width: "18rem"}}>
+        <div className="card col-md-5 mr-3 mx-auto mt-3" style={{width: "18rem"}}>
             <a href={"https://arcane-sea-28401.herokuapp.com/"}><img className="card-img-top" src={featureImage} alt="Epixego"/></a>
 
             <div className="card-body">
@@ -23,7 +23,7 @@ const OAuthApp = () => {
                     <br/>
 
                     <div className="card-header">
-                        <h5>Notable Tech Used:
+                        <h6>Notable Tech Used:
                             <span className="badge badge-info ml-2">React</span>
                             <span className="badge badge-success ml-2">Node</span>
                             <span className="badge ml-2"
@@ -34,7 +34,7 @@ const OAuthApp = () => {
                                   style={{backgroundColor: "#4968AF", color: 'white'}}>AWS</span>
                             <span className="badge badge-primary ml-2">Heroku</span>
 
-                        </h5>
+                        </h6>
 
                     </div>
                     <div className={"text-center mt-2"}>

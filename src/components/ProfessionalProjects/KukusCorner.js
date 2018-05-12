@@ -4,7 +4,7 @@ import featureImage from '../../images/kukuscorner_1.png'
 
 const KukusCorner = () => {
     return (
-        <div className="card col-md-5" style={{width: "18rem"}}>
+        <div className="card col-md-5 mx-auto" style={{width: "18rem"}}>
             <a href={"https://kukuscorner.com/#/home"}><img className="card-img-top" src={featureImage} alt="Kuku's"/></a>
             <div className="card-body">
                 <h5 className="card-title">Kuku's Corner</h5>
@@ -15,10 +15,10 @@ const KukusCorner = () => {
                     <br/>
 
                     <div className="card-header">
-                        <h5>Notable Tech Used:
+                        <h6>Notable Tech Used:
                             <span className="badge badge-info ml-2">React</span>
                             <span className="badge ml-2" style={{backgroundColor: "purple", color: 'white'}}>Bootstrap</span>
-                        </h5>
+                        </h6>
                     </div>
 
                     <div className={"text-center mt-2"} >

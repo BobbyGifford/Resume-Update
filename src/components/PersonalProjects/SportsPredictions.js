@@ -4,7 +4,7 @@ import featureImage from '../../images/sport_prediction_1.png'
 
 const SportPredictions = () => {
     return (
-        <div className="card col-md-5 mt-3" style={{width: "18rem"}}>
+        <div className="card col-md-5 mt-3 mx-auto" style={{width: "18rem"}}>
             <a href={"http://vue2-sports-predictions.s3-website-us-west-1.amazonaws.com/"}><img className="card-img-top" src={featureImage} alt="Sports"/></a>
 
             <div className="card-body">
@@ -19,7 +19,7 @@ const SportPredictions = () => {
                     <br/>
 
                     <div className="card-header">
-                        <h5>Notable Tech Used:
+                        <h6>Notable Tech Used:
                             <span className="badge badge-danger ml-2">Vue 2</span>
                             <span className="badge badge-success ml-2">Node</span>
                             <span className="badge ml-2"
@@ -28,7 +28,7 @@ const SportPredictions = () => {
                                   style={{backgroundColor: "#4968AF", color: 'white'}}>AWS</span>
                             <span className="badge badge-primary ml-2">Heroku</span>
 
-                        </h5>
+                        </h6>
 
                     </div>
                     <div className={"text-center mt-2"}>

@@ -23,11 +23,6 @@ const Nav = () => {
                                 document.querySelector("#projectlist").scrollIntoView({behavior: "smooth"})
                             }}>Projects</a>
                         </li>
-                        <li className="nav-item">
-                            <a className="nav-link" onClick={() => {
-                                document.querySelector("#skills").scrollIntoView({behavior: "smooth"})
-                            }}>Skills</a>
-                        </li>
                     </ul>
                 </div>
             </nav>

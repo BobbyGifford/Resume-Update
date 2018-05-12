@@ -3,13 +3,14 @@ import featureImage from '../images/bg2.jpg'
 
 const style = {
     styleContainer: {
-        height: "100vh",
-        width: "100vw",
+        height: "90vh",
+        width: "100%",
+        maxWidth: "98vw"
     },
     styleBody: {
-        marginTop: "25vh",
+        marginTop: "10vh",
         padding: "15vh 0 15vh 0",
-        width: "100vw",
+        width: "100%",
         backgroundImage: `url(${featureImage})`,
         backgroundPositionY: '-20vh',
     },
