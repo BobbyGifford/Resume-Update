@@ -14,7 +14,7 @@ const style = {
         backgroundPositionY: '-20vh',
     },
     styleContent: {
-        backgroundColor: 'rgb(192, 206, 229, .7)',
+        backgroundColor: 'rgb(192, 206, 229, .8)',
         height: "100%",
         width: "100%",
         color: "black",
