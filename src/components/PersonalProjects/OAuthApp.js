@@ -12,10 +12,13 @@ const OAuthApp = () => {
 
 
                 <div className="card-text">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut vitae sapien at ligula faucibus auctor.
-                    Morbi molestie fermentum dapibus. Maecenas leo ligula, tristique sed pellentesque et, auctor nec
-                    nulla. Etiam elementum orci et condimentum consequat. Praesent aliquet quam non nibh congue
-                    vulputate.
+                    <hr style={{backgroundColor: "black"}}/>
+                    This app is hosted on Heroku and may be slow loading.
+                    <hr style={{backgroundColor: "black"}}/>
+                    <br/>
+                    A skeleton/base site for utilizing OAuth 2.0 with a Node backend and MongoDB. Intentionally kept
+                    simple because it is the base of anything that requires login. It also uses Passport to store user
+                    info in cookies.
                     <br/>
                     <br/>
 

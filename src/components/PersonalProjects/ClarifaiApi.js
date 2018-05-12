@@ -12,10 +12,8 @@ const ClarifaiApi = () => {
 
 
                 <div className="card-text">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut vitae sapien at ligula faucibus auctor.
-                    Morbi molestie fermentum dapibus. Maecenas leo ligula, tristique sed pellentesque et, auctor nec
-                    nulla. Etiam elementum orci et condimentum consequat. Praesent aliquet quam non nibh congue
-                    vulputate.
+                    A site that utilizes an experimental machine learning API that can detect detect naughtiness level
+                    of an image. Currently under construction.
                     <br/>
                     <br/>
 

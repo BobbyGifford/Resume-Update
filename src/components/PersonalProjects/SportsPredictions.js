@@ -13,16 +13,14 @@ const SportPredictions = () => {
 
 
                 <div className="card-text">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut vitae sapien at ligula faucibus auctor.
-                    Morbi molestie fermentum dapibus. Maecenas leo ligula, tristique sed pellentesque et, auctor nec
-                    nulla. Etiam elementum orci et condimentum consequat. Praesent aliquet quam non nibh congue
-                    vulputate.
+                    A fun prediction site where users login and create a sports prediction. Predictions are categorized
+                    based on league.
                     <br/>
                     <br/>
 
                     <div className="card-header">
                         <h5>Notable Tech Used:
-                            <span className="badge badge-info ml-2">React</span>
+                            <span className="badge badge-danger ml-2">Vue 2</span>
                             <span className="badge badge-success ml-2">Node</span>
                             <span className="badge ml-2"
                                   style={{backgroundColor: "purple", color: 'white'}}>Bootstrap</span>

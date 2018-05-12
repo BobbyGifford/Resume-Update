@@ -13,10 +13,9 @@ const GuitarInfo = () => {
 
 
                 <div className="card-text">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut vitae sapien at ligula faucibus auctor.
-                    Morbi molestie fermentum dapibus. Maecenas leo ligula, tristique sed pellentesque et, auctor nec
-                    nulla. Etiam elementum orci et condimentum consequat. Praesent aliquet quam non nibh congue
-                    vulputate.
+                    An education site that describes the main specifications of a guitar. The original purpose was to
+                    make obscure technical specifications seem simple to novice guitarists. I am an avid guitarist and
+                    love researching specs. Using a guitar that is uncomfortable can ruin guitar playing for a beginner.
                     <br/>
                     <br/>
 
