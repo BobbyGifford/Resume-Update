@@ -29,12 +29,6 @@ const ClarifaiApi = () => {
                         </h5>
 
                     </div>
-                    <ul className="list-group list-group-flush">
-                        <li className="list-group-item">React</li>
-                        <li className="list-group-item">Clarifai API</li>
-                        <li className="list-group-item">Bootstrap</li>
-                        <li className="list-group-item">AWS</li>
-                    </ul>
                     <div className={"text-center mt-2"}>
                         <a href={"http://nsfw-detection.s3-website-us-west-1.amazonaws.com/"} className={"btn btn-info"}
                            style={{color: "white"}}>View</a>
