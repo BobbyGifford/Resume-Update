@@ -4,12 +4,12 @@ import featureImage from '../../images/epixego_1.png'
 
 const Epixego = () => {
     return (
-        <div className="card col-md-6" style={{width: "18rem"}}>
+        <div className="card col-md-5 mr-3 offset-md-1" style={{width: "18rem"}}>
             <img className="card-img-top" src={featureImage} alt="Epixego"/>
 
             <div className="card-body">
                 <h4 className="card-title">Epixego
-                    </h4>
+                </h4>
 
 
                 <div className="card-text">
@@ -20,14 +20,13 @@ const Epixego = () => {
                     <br/>
 
                     <div className="card-header">
-                        Notable Tech Used
+                        <h5>Notable Tech Used:
+                            <span className="badge badge-info ml-2">React</span>
+                            <span className="badge badge-success ml-2">Node</span>
+                            <span className="badge ml-2" style={{backgroundColor: "purple", color: 'white'}}>Bootstrap</span>
+                        </h5>
                     </div>
-                    <ul className="list-group list-group-flush">
-                        <li className="list-group-item">React</li>
-                        <li className="list-group-item">Node</li>
-                        <li className="list-group-item">Bootstrap</li>
-                    </ul>
-                    <h6 className="text-center"><span className="badge badge-danger">Currently in Alpha</span></h6>
+                    <h6 className="text-center"><span className="badge badge-danger mt-3">Currently in Alpha</span></h6>
                 </div>
             </div>
         </div>

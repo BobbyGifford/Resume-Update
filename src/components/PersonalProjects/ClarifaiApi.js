@@ -3,7 +3,7 @@ import featureImage from "../../images/mt-fuji.jpg"
 
 const ClarifaiApi = () => {
     return (
-        <div className="card col-md-6" style={{width: "18rem"}}>
+        <div className="card col-md-5" style={{width: "18rem"}}>
             <img className="card-img-top" src={featureImage} alt="Clarifai"/>
 
             <div className="card-body">
@@ -20,7 +20,16 @@ const ClarifaiApi = () => {
                     <br/>
 
                     <div className="card-header">
-                        Notable Tech Used
+                        <h5>Notable Tech Used:
+                            <span className="badge badge-info ml-2">React</span>
+                            <span className="badge badge-warning ml-2">Clarifai API</span>
+
+                            <span className="badge ml-2"
+                                  style={{backgroundColor: "purple", color: 'white'}}>Bootstrap</span>
+                            <span className="badge ml-2"
+                                  style={{backgroundColor: "#4968AF", color: 'white'}}>AWS</span>
+                        </h5>
+
                     </div>
                     <ul className="list-group list-group-flush">
                         <li className="list-group-item">React</li>

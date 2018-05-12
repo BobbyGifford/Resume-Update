@@ -3,8 +3,9 @@ import featureImage from '../../images/guitar_info_1.png'
 
 const GuitarInfo = () => {
     return (
-        <div className="card col-md-6" style={{width: "18rem"}}>
-            <img className="card-img-top" src={featureImage} alt="Epixego"/>
+        <div className="card col-md-5 mr-3 offset-md-1" style={{width: "18rem"}}>
+            <a href={"http://guitar-info.s3-website.us-east-2.amazonaws.com/"}>
+                <img className="card-img-top" src={featureImage} alt="Epixego"/></a>
 
             <div className="card-body">
                 <h4 className="card-title">Guitar Info
@@ -20,13 +21,15 @@ const GuitarInfo = () => {
                     <br/>
 
                     <div className="card-header">
-                        Notable Tech Used
+                        <h5>Notable Tech Used:
+                            <span className="badge badge-info ml-2">React</span>
+                            <span className="badge ml-2"
+                                  style={{backgroundColor: "purple", color: 'white'}}>Bootstrap</span>
+                            <span className="badge ml-2"
+                                  style={{backgroundColor: "#4968AF", color: 'white'}}>AWS</span>
+                        </h5>
+
                     </div>
-                    <ul className="list-group list-group-flush">
-                        <li className="list-group-item">React</li>
-                        <li className="list-group-item">Bootstrap</li>
-                        <li className="list-group-item">AWS</li>
-                    </ul>
                     <div className={"text-center mt-2"}>
                         <a href={"http://guitar-info.s3-website.us-east-2.amazonaws.com/"} className={"btn btn-info"}
                            style={{color: "white"}}>View</a>

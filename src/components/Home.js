@@ -3,21 +3,21 @@ import featureImage from '../images/bg2.jpg'
 
 const style = {
     styleContainer: {
-        height: "90vh",
+        height: "100vh",
         width: "100vw",
     },
     styleBody: {
         marginTop: "25vh",
-        padding: "10vh 0 10vh 0",
+        padding: "15vh 0 15vh 0",
         width: "100vw",
         backgroundImage: `url(${featureImage})`,
-        backgroundPositionY: '-40vh',
+        backgroundPositionY: '-20vh',
     },
     styleContent: {
-        backgroundColor: 'rgb(192, 206, 229, .2)',
+        backgroundColor: 'rgb(192, 206, 229, .7)',
         height: "100%",
         width: "100%",
-        color: "white",
+        color: "black",
     }
 };
 
@@ -33,7 +33,7 @@ const Home = () => {
                                 About me
                             </h3>
 
-                            <hr style={{backgroundColor: 'white'}}/>
+                            <hr style={{backgroundColor: 'black'}}/>
 
                             <p> My name is Robert but I go by Bobby. I am a software developer currently living in
                                 Cupertino,
