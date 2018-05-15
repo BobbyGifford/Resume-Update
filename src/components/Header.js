@@ -1,5 +1,6 @@
 import React from 'react'
 import featureImage from '../images/mt-fuji.jpg'
+import profileImage from '../images/profile_pic.jpg'
 import '../App.css';
 
 const styles = {
@@ -15,7 +16,12 @@ const styles = {
         backgroundColor: 'rgb(71, 160, 250, .1)',
         width: '60vw',
         height: '100vh',
-        paddingTop: "30vh"
+        paddingTop: "25vh"
+    },
+
+    styleImage: {
+        maxWidth: '50vw',
+        maxHeight: '40vh'
     }
 };
 
@@ -26,6 +32,7 @@ const Header = () => {
                 <div style={{color: 'black'}}>
                     <h1 className="display-4">Robert Gifford</h1>
                     <p className="lead">Welcome to my resume</p>
+                    <img src={profileImage} style={styles.styleImage} />
                     <hr className="my-4"/>
                     <div className="lead d-none d-md-block">
                         <button onClick={() => {
