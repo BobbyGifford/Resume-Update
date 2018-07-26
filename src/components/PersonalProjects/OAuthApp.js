@@ -25,14 +25,11 @@ const OAuthApp = () => {
                     <div className="card-header">
                         <h6>Notable Tech Used:
                             <span className="badge badge-info ml-2">React</span>
-                            <span className="badge badge-success ml-2">Node</span>
-                            <span className="badge ml-2"
-                                  style={{backgroundColor: "purple", color: 'white'}}>Bootstrap</span>
-                            <span className="badge ml-2"
-                                  style={{backgroundColor: "#ed6023", color: 'white'}}>OAuth 2.0</span>
-                            <span className="badge ml-2"
-                                  style={{backgroundColor: "#4968AF", color: 'white'}}>AWS</span>
-                            <span className="badge badge-primary ml-2">Heroku</span>
+                            <span className="badge badge-info ml-2">Node</span>
+                            <span className="badge badge-info ml-2">Bootstrap</span>
+                            <span className="badge badge-info ml-2">OAuth 2.0</span>
+                            <span className="badge badge-info ml-2">AWS</span>
+                            <span className="badge badge-info ml-2">Heroku</span>
 
                         </h6>
 

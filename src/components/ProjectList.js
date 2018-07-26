@@ -15,22 +15,10 @@ class ProjectList extends Component {
         return (
             <div style={{color: "white", maxWidth: "98vw"}}>
                 <h1 className="text-center">Projects</h1>
-                <h4 className="text-center my-4">Please click one of the buttons below</h4>
                 <hr style={{backgroundColor: 'white', width: '60vw'}} />
 
-                <div className={"text-center"}>
-
-                    <button onClick={() => {
-                        this.setState({projectOption: "professional"})
-                    }} className={"btn btn-success btn-lg mx-3"}> View Professional
-                    </button>
-
-                    <button onClick={() => {
-                        this.setState({projectOption: "personal"})
-                    }} className={"btn btn-success btn-lg"}>View Personal</button>
-                </div>
-
-                {this.state.projectOption === "professional" ? <ProfessionalProjects /> : <PersonalProjects/>}
+                <ProfessionalProjects />
+                <PersonalProjects />
             </div>
         )
     }

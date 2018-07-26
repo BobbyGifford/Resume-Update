@@ -17,7 +17,7 @@ const KukusCorner = () => {
                     <div className="card-header">
                         <h6>Notable Tech Used:
                             <span className="badge badge-info ml-2">React</span>
-                            <span className="badge ml-2" style={{backgroundColor: "purple", color: 'white'}}>Bootstrap</span>
+                            <span className="badge badge-info ml-2">Bootstrap</span>
                         </h6>
                     </div>
 

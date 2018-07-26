@@ -4,6 +4,7 @@ import ClarifaiApi from "./ClarifaiApi"
 import OAuthApp from "./OAuthApp"
 import SportsPredictions from "./SportsPredictions"
 import MarvelHeroes from './Marvel-Heroes'
+import Ancient from './AncientArchitecture'
 
 const PersonalProjects = () => {
     return (
@@ -11,6 +12,7 @@ const PersonalProjects = () => {
             <h3 className={"text-center my-4"}>Personal Projects</h3>
             <div className="row" style={{color: "black"}}>
 
+                <Ancient />
                 <MarvelHeroes/>
                 <GuitarInfo/>
                 <ClarifaiApi/>

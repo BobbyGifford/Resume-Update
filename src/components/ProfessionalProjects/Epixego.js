@@ -22,8 +22,8 @@ const Epixego = () => {
                     <div className="card-header">
                         <h6>Notable Tech Used:
                             <span className="badge badge-info ml-2">React</span>
-                            <span className="badge badge-success ml-2">Node</span>
-                            <span className="badge ml-2" style={{backgroundColor: "purple", color: 'white'}}>Bootstrap</span>
+                            <span className="badge badge-info ml-2">Node</span>
+                            <span className="badge badge-info ml-2">Bootstrap</span>
                         </h6>
                     </div>
                     <h6 className="text-center"><span className="badge badge-danger mt-3">Currently in Alpha</span></h6>

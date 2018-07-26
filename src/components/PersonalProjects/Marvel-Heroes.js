@@ -21,12 +21,10 @@ const MarvelHeroes = () => {
                     <div className="card-header">
                         <h6>Notable Tech Used:
                             <span className="badge badge-info ml-2">React</span>
-                            <span className="badge badge-warning ml-2">Marvel API</span>
+                            <span className="badge badge-info ml-2">Marvel API</span>
 
-                            <span className="badge ml-2"
-                                  style={{backgroundColor: "purple", color: 'white'}}>Materialize CSS</span>
-                            <span className="badge ml-2"
-                                  style={{backgroundColor: "#4968AF", color: 'white'}}>AWS</span>
+                            <span className="badge badge-info ml-2">Materialize CSS</span>
+                            <span className="badge badge-info ml-2">AWS</span>
                         </h6>
 
                     </div>
